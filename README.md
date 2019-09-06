@@ -2,9 +2,9 @@
 Here you can find a simple common responsive Header template using pure HTML5/CSS3. please, use it in your SeaDataNet VRE service.
 
 ## Files 
-`header-exemple.html` : HTML header example.
-`header.css` : Header styles.
-`header-title.png` & `logo.png` : Images displayed in the header.
+`header-exemple.html` : HTML header example.  
+`header.css` : Header styles.  
+`header-title.png` & `logo.png` : Images displayed in the header.  ls
 
 ## How to proceed ?
 1 - Copy the content of the `<header>` tag from the HTML file in your application pages.  
