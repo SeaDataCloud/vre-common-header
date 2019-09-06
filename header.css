@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #fff;
+    height: 72px;
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0,0,0,.85);
+    padding: 0 10px;
+}
+
+.header-title {
+    background: url(media/logo.png) no-repeat 5px center;
+    background-size: auto 54px;
+    max-width: 440px;
+    height: 72px;
+    padding-left: 110px;
+    float: left;
+}
+
+.header-title h1 {
+    background: url(media/header-title.png) no-repeat;
+    background-size: auto 54px;
+    border-left: 1px solid #e2ebf2;
+    text-indent: -9999px;
+    width: 308px;
+    height: 50px;
+    margin-top: 10px;
+    padding: 0;
+}
+
+@media screen and (max-width: 992px) {
+    header {
+        height: 36px;
+        background-size: auto 30px;
+    }
+
+    .header-title {
+        background: url(media/logo.png) no-repeat 5px center;
+        background-size: auto 27px;
+        height: 36px;
+    }
+
+    .header-title h1 {
+        display: none;
+    }
+}
