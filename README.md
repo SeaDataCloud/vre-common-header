@@ -14,7 +14,7 @@ Here you can find a simple common responsive Header template using pure HTML5/CS
 ```
 3 - Edit `header.css` to define the right path to the two PNG files.  
 
-## My container is executed with jupyterhub and I need a button to shutdown it
+## My container is executed by jupyterhub and I need a button to shutdown it
 In this case you just have to uncomment following code in `header-exemple.html` :  
 ```
 <div class="ph-container">
